@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.column {
+    border-radius: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.sedans-card {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-card {
+    width: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-card {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: hsl(179, 100%, 13%);
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    ;
+}
+
+p {
+    font-size: 15px;
+    font-family: Lexend Deca;
+    padding-top: 25px;
+    color: white;
+}
+
+.btn-sedans {
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    width: 130px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(179, 100%, 13%);
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.btn-sedans:hover {
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-suvs {
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    width: 130px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(179, 100%, 13%);
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.btn-suvs:hover {
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-luxury {
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    width: 130px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(179, 100%, 13%);
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.btn-luxury:hover {
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width:800px) {
+    .column {
+        flex-wrap: wrap;
+    }
+}
